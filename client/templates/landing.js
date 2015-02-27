@@ -16,4 +16,10 @@ Template.landing.rendered = function() {
   $('.collapsible').collapsible({
     accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
   });
+
+  // Make whole div with line clickable
+  $(".collapsible-body").click(function() {
+    window.location = $(this).find("a").attr("href");
+    return false;
+  });
 };
