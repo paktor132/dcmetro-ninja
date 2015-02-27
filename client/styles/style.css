@@ -25,6 +25,51 @@
   background-color: blue;
 }
 
+/* Collapsible menu styling */
+.collapsible-body {
+  padding: 10px;
+}
+
+.collapsible-body > a {
+  color: black;
+}
+
+.collapsible-header {
+  color: white;
+}
+
+.collapsible-header-red-line {
+  background-color: #b71c1c;
+}
+
+.collapsible-body-red-line {
+  background-color: #ffcdd2;
+}
+
+.collapsible-header-orange-line {
+  background-color: #e65100;
+}
+
+.collapsible-body-orange-line {
+  background-color: #ffe0b2;
+}
+
+.collapsible-header-green-line {
+  background-color: #1b5e20;
+}
+
+.collapsible-body-green-line {
+  background-color: #c8e6c9;
+}
+
+.collapsible-header-blue-line {
+  background-color: #01579b;
+}
+
+.collapsible-body-blue-line {
+  background-color: #b3e5fc;
+}
+
 .navbar-fixed {
   z-index: 99;
   height: 50px;
