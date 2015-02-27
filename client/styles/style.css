@@ -1,5 +1,36 @@
 /* CSS declarations go here */
 
+@-webkit-keyframes spin-180 {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(180deg);
+    }
+}
+@-moz-keyframes spin-180 {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(180deg);
+    }
+}
+@keyframes spin-180 {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(180deg);
+    }
+}
+
+.line.active .mdi-navigation-expand-more {
+  -webkit-animation: spin-180 0.25s 1 ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation: spin-180 0.25s 1 ease-out;
+  -moz-animation-fill-mode: forwards;
+  animation: spin-180 0.25s 1 ease-out;
+  animation-fill-mode: forwards;
+}
+
 .line-background {
   position: fixed;
   width: 10px;

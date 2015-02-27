@@ -23,3 +23,9 @@ Template.landing.rendered = function() {
     return false;
   });
 };
+
+Template.landing.events({
+  'click .line-item': function(e) {
+    $(this).toggleClass('active');
+  }
+});
