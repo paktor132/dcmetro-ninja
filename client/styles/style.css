@@ -28,6 +28,7 @@
 /* Collapsible menu styling */
 .collapsible-body {
   padding: 10px;
+  text-align: left;
 }
 
 .collapsible-body > a {
@@ -36,6 +37,11 @@
 
 .collapsible-header {
   color: white;
+  text-align: left;
+}
+
+.mdi-navigation {
+  text-align: right;
 }
 
 .collapsible-header-red-line {
