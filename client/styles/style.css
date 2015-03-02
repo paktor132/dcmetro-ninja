@@ -25,6 +25,14 @@
   background-color: blue;
 }
 
+.yellow-line {
+  background-color: yellow;
+}
+
+.silver-line {
+  background-color: silver;
+}
+
 .navbar-fixed {
   z-index: 99;
   height: 50px;
