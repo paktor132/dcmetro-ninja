@@ -29,6 +29,12 @@ Template.main.helpers({
     else if(line.indexOf("Blue") > -1) {
       lineColor = "blue-line";
     }
+    else if(line.indexOf("Yellow") > -1) {
+      lineColor = "yellow-line";
+    }
+    else if(line.indexOf("Silver") > -1) {
+      lineColor = "silver-line";
+    }
 
     return lineColor;
   }
